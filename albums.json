@@ -1,0 +1,403 @@
+[
+    {
+    "title": "Khairiyat (From Gadar 2)",
+    "artists": ["Arijit Singh", "Mithoon"],
+    "description":
+      "A soul-stirring collection of heartrending ballads and anthems of hope. A musical catharsis.",
+    "image":
+      "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0b1.jpg",
+    "playListName": "Featured This Week",
+    "release": "2023-07-18T00:00:00.000Z"
+    },
+    {
+        "title": "Independence Day Special - Bollywood Songs",
+        "artists": ["Sonali Vajpayee", "Nisha Upadhyay", "Sneha Pant", "Sonu Nigam", "Roop Kumar Rathod", "Chorus", "Harbhajan Mann", "Mohd. Salamat", "Anu Malik"],
+        "description":
+          "An electrifying musical experience, fusing ancient rhythms with contemporary soundscapes",
+        "image":
+          "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0bb.jpg",
+        "playListName": "Featured This Week",
+        "release": "2018-08-14T00:00:00.000Z"
+    },
+    {
+        "title": "Independence Day Special",
+        "artists": ["Salim Merchant", "Sukhwinder Singh", "Marianne D-Cruz", "Udit Narayan"],
+        "description":
+        "A symphony of emotions, weaving tales of joy, sorrow, and triumph. A masterpiece of storytelling.",
+        "image":
+        "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0bc.jpg",
+        "playListName": "Featured This Week",
+        "release": "2017-07-25T00:00:00.000Z"
+    },
+    {
+        "title": "Zihaal e Miskin",
+        "artists": ["Javed-Mohsin", "Vishal Mishra", "Shreya Ghoshal"],
+        "description":
+        "A vibrant tapestry of sounds, representing the myriad colors of India's musical heritage.",
+        "image":
+        "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0bd.jpg",
+        "playListName": "Featured This Week",
+        "release": "2023-05-25T00:00:00.000Z"
+    },
+    {
+        "title": "Lagaan",
+        "artists": ["Udit Narayan","Alka Yagnik","Shaan","Shankar Mahadevan","Sukhwinder Singh","Kishore Gowariker","Srinivas","Vaishali Samant","Asha Bhosle","Vasundara Das","A. R. Rahman","Lata Mangeshkar","Anuradha Sriram"],
+        "description":
+        "An innovative fusion of classical and modern elements, pushing the boundaries of Indian music.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0be.jpg",
+        "playListName": "Featured This Week",
+        "release": "2001-04-03T00:00:00.000Z"
+    },
+    {
+        "title": "Kya Loge Tum",
+        "artists": ["B Praak","Jaani","Akshay Kumar"],
+        "description":
+        "An electrifying musical experience, fusing ancient rhythms with contemporary soundscapes.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0bf.jpg",
+        "playListName": "Featured This Week",
+        "release": "2023-05-15T00:00:00.000Z"
+    },
+    {
+        "title": "Shayad Woh Sune",
+        "artists": ["King"],
+        "description":
+            "A soul-stirring collection of heartrending ballads and anthems of hope. A musical catharsis.",
+        "image":
+        "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0c0.jpg",
+        "playListName": "Featured This Week",
+        "release": "2023-07-14T00:00:00.000Z"
+    },
+    {
+        "title": "Desperado",
+        "artists": ["Raghav","Tesher"],
+        "description":
+        "A rhythmic odyssey, exploring the rich tapestry of Indian music. A melodic adventure.",
+        "image":
+        "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0c1.jpg",
+        "playListName": "Featured This Week",
+        "release": "2023-06-23T00:00:00.000Z"
+    },
+    {
+        "title": "Fanaa",
+        "artists": ["Shaan","Kailash Kher","Sonu Nigam","Sunidhi Chauhan","Aamir Khan","Kajol","Mahalakshmi Iyer","Babul Supriyo","Master Akshay Bhagwat","Instrumental"],
+        "description":
+        "An electrifying musical experience, fusing ancient rhythms with contemporary soundscapes.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0c2.jpg",
+        "playListName": "Featured This Week",
+        "release": "2006-04-12T00:00:00.000Z"
+    },
+    {
+        "title": "Kisi Ka Bhai Kisi Ki Jaan (Original Motion Picture Soundtrack)",
+        "artists": ["Sukhbir","Kumaar","Himesh Reshammiya","Kamaal Khan","Palak Muchhal","Salman Khan"],
+        "description":
+            "An electrifying musical experience, fusing ancient rhythms with contemporary soundscapes.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0c3.jpg",
+        "playListName": "Featured This Week",
+        "release": "2023-04-20T00:00:00.000Z"
+    },
+    {
+        "title": "Naah",
+        "artists": ["Harrdy Sandhu"],
+        "description":
+            "A vibrant tapestry of sounds, representing the myriad colors of India's musical heritage.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0c4.jpg",
+        "playListName": "Soul Soothers",
+        "release": "2017-11-30T00:00:00.000Z"
+    },
+    {
+        "title": "Obsessed",
+        "artists": ["Riar Saab","Abhijay Sharma"],
+        "description":
+        "A vibrant tapestry of sounds, representing the myriad colors of India's musical heritage.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0c5.jpg",
+        "playListName": "Soul Soothers",
+        "release": "2022-09-29T00:00:00.000Z"
+    },
+    {
+        "title": "Veer-Zaara",
+        "artists": ["Lata Mangeshkar","Roop Kumar Rathod","Udit Narayan","Gurdas Maan"],
+        "description":
+        "An enchanting journey through melodies that touch the soul. A tribute to love and life.",
+        "image":
+        "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0c6.jpg",
+        "playListName": "Soul Soothers",
+        "release": "2004-09-18T00:00:00.000Z"
+    },
+    {
+        "title": "Yahi Toh Hai Zindagi",
+        "artists": ["Suhit Abhyankar"],
+        "description":
+            "A mesmerizing fusion of traditional sounds and modern beats. A celebration of cultural diversity.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0c7.jpg",
+        "playListName": "Soul Soothers",
+        "release": "2023-06-26T00:00:00.000Z"
+    },
+    {
+        "title": "Gustakhiyan",
+        "artists": ["Gurnam Bhullar"],
+        "description":
+        "An electrifying musical experience, fusing ancient rhythms with contemporary soundscapes.",
+        "image":
+        "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0c8.jpg",
+        "playListName": "Soul Soothers",
+        "release": "2023-07-01T00:00:00.000Z"
+    },
+    {
+        "title": "An Era In An Evening",
+        "artists": ["Lata Mangeshkar","Usha Mangeshkar","A. R. Rahman","S. P. Balasubrahmanyam"],
+        "description":
+            "A vibrant tapestry of sounds, representing the myriad colors of India's musical heritage.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0c9.jpg",
+        "playListName": "Soul Soothers",
+        "release": "2011-06-03T00:00:00.000Z"
+    },
+    {
+        "title": "Roohi (Original Motion Picture Soundtrack)",
+        "artists": ["Sachin-Jigar","Asees Kaur","Divya Kumar","Mellow D","Jubin Nautiyal"],
+        "description":
+        "A mesmerizing fusion of traditional sounds and modern beats. A celebration of cultural diversity.",
+        "image":
+        "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0ca.jpg",
+        "playListName": "Soul Soothers",
+        "release": "2021-03-05T00:00:00.000Z"
+    },
+    {
+        "title": "War",
+        "artists": ["Arijit Singh","Shilpa Rao","Vishal Dadlani","Benny Dayal","Sanchit Balhara"],
+        "description":
+            "A vibrant tapestry of sounds, representing the myriad colors of India's musical heritage.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0cb.jpg",
+        "playListName": "Soul Soothers",
+        "release": "2019-09-05T00:00:00.000Z"
+    },
+    {
+        "title": "Maa Tujhhe Salaam",
+        "artists": ["Sunidhi Chauhan","Harvinder","Udit Narayan","Kavita Krishnamurthy","Asha Bhosle"],
+        "description":
+            "An electrifying musical experience, fusing ancient rhythms with contemporary soundscapes.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0cc.jpg",
+        "playListName": "Soul Soothers",
+        "release": "2001-01-01T00:00:00.000Z"
+    },
+    {
+        "title": "Main Khiladi",
+        "artists": ["Udit Narayan","Abhijeet Bhattacharya","Tanishk Bagchi"],
+        "description":
+            "An enchanting journey through melodies that touch the soul. A tribute to love and life.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0cd.jpg",
+        "playListName": "Soul Soothers",
+        "release": "2023-02-01T00:00:00.000Z"
+    },
+    {
+        "title": "Check It Out",
+        "artists": ["Parmish Verma","Paradox"],
+        "description":
+            "An electrifying musical experience, fusing ancient rhythms with contemporary soundscapes.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0d2.jpg",
+        "playListName": "Trending Playlists",
+        "release": "2023-06-27T00:00:00.000Z"
+    },
+    {
+        "title": "Bollywood Patriotic Songs",
+        "artists": ["Shankar Mahadevan","Sonali Rathod","Kulbhushan Kharbanda","Hariharan"],
+        "description":
+            "A symphony of emotions, weaving tales of joy, sorrow, and triumph. A masterpiece of storytelling.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0cf.jpg",
+        "playListName": "Trending Playlists",
+        "release": "2016-08-10T00:00:00.000Z"
+    },
+    {
+        "title": "Mahiye Jinna Sohna",
+        "artists": ["Darshan Raval"],
+        "description":
+            "A mesmerizing fusion of traditional sounds and modern beats. A celebration of cultural diversity.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0d0.jpg",
+        "playListName": "Trending Playlists",
+        "release": "2023-06-22T00:00:00.000Z"
+    },
+    {
+        "title": "Bunty Aur Babli 2",
+        "artists": ["Shankar Ehsaan Loy","Neha Kakkar","Pardeep Singh Sran","Amitabh Bhattacharya"],
+        "description":
+            "A mesmerizing fusion of traditional sounds and modern beats. A celebration of cultural diversity.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0d1.jpg",
+        "playListName": "Trending Playlists",
+        "release": "2021-11-02T00:00:00.000Z"
+    },
+    {
+        "title": "Gehraiyaan",
+        "artists": ["OAFF","Savera","Lothika","Kausar Munir","Ankur Tewari","Mohit Chauhan"],
+        "description":
+        "A vibrant tapestry of sounds, representing the myriad colors of India's musical heritage.",
+        "image":
+        "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0d3.jpg",
+        "playListName": "Trending Playlists",
+        "release": "2022-02-01T00:00:00.000Z"
+    },
+    {
+        "title": "Kasol",
+        "artists": ["Mani Longia","Starboy X"],
+        "description":
+            "A vibrant tapestry of sounds, representing the myriad colors of India's musical heritage.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0d4.jpg",
+        "playListName": "Trending Playlists",
+        "release": "2023-07-18T00:00:00.000Z"
+    },
+    {
+        "title": "K. G. F. 2 (Hindi)",
+        "artists": ["Ravi Basrur","Brijesh Shandilya","Mohan Krishna","Saaj Bhatt","Santhosh Venky"],
+        "description":
+            "A soul-stirring collection of heartrending ballads and anthems of hope. A musical catharsis.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0d5.jpg",
+        "playListName": "Trending Playlists",
+        "release": "2022-04-20T00:00:00.000Z"
+    },
+    {
+        "title": "Sleepless",
+        "artists": ["AP Dhillon"],
+        "description":
+        "An enchanting journey through melodies that touch the soul. A tribute to love and life.",
+        "image":
+        "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0d6.jpg",
+        "playListName": "Trending Playlists",
+        "release": "2023-07-14T00:00:00.000Z"
+    },
+    {
+        "title": "Mirchi Murga With RJ Naved",
+        "artists": ["RJ Naved"],
+        "description":
+            "A symphony of emotions, weaving tales of joy, sorrow, and triumph. A masterpiece of storytelling.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0d7.jpg",
+        "playListName": "Trending Playlists",
+        "release": "2016-09-29T00:00:00.000Z"
+    },
+    {
+        "title": "Baarish Ki Jaaye",
+        "artists": ["B Praak","Nawazuddin Siddiqui","Sunanda Sharma"],
+        "description":
+            "A soul-stirring collection of heartrending ballads and anthems of hope. A musical catharsis.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0d8.jpg",
+        "playListName": "Trending Playlists",
+        "release": "2021-03-27T00:00:00.000Z"
+    },
+    {
+        "title": "Car Keys (Ayla)",
+        "artists": ["Alok","Ava Max"],
+        "description":
+            "An enchanting journey through melodies that touch the soul. A tribute to love and life.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0d9.jpg",
+        "playListName": "Hip-Hop Forever",
+        "release": "2023-06-30T00:00:00.000Z"
+    },
+    {
+        "title": "Shuddh Vichaar",
+        "artists": ["Tarique Ahmad"],
+        "description":
+            "An ethereal composition, transcending time and space. A musical reverie.",
+        "image":
+        "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0da.jpg",
+        "playListName": "Hip-Hop Forever",
+        "release": "2018-05-21T00:00:00.000Z"
+    },
+    {
+        "title": "Heeriye (feat. Arijit Singh)",
+        "artists": ["Jasleen Royal","Arijit Singh","Dulquer Salmaan"],
+        "description":
+            "A symphony of emotions, weaving tales of joy, sorrow, and triumph. A masterpiece of storytelling.",
+        "image":
+        "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0dc.jpg",
+        "playListName": "Hip-Hop Forever",
+        "release": "2023-07-25T00:00:00.000Z"
+    },
+    {
+        "title": "Baari",
+        "artists": ["Bilal Saeed","Momina Mustehsan"],
+        "description":
+            "An electrifying musical experience, fusing ancient rhythms with contemporary soundscapes.",
+        "image":
+        "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0dd.jpg",
+        "playListName": "Hip-Hop Forever",
+        "release": "2021-07-12T00:00:00.000Z"
+    },
+    {
+        "title": "Tod Da E Dil",
+        "artists": ["Ammy Virk"],
+        "description":
+            "An ethereal composition, transcending time and space. A musical reverie.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0df.jpg",
+        "playListName": "Hip-Hop Forever",
+        "release": "2020-03-29T00:00:00.000Z"
+    },
+    {
+        "title": "83 (Original Motion Picture Soundtrack)",
+        "artists": ["Pritam","Arijit Singh","Benny Dayal","Amit Mishra","Tushar Joshi"],
+        "description":
+        "An enchanting journey through melodies that touch the soul. A tribute to love and life.",
+        "image":
+        "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0de.jpg",
+        "playListName": "Hip-Hop Forever",
+        "release": "2021-12-23T00:00:00.000Z"
+    },
+    {
+        "title": "Put A Little Love On Me",
+        "artists": ["Niall Horan"],
+        "description":
+            "A vibrant tapestry of sounds, representing the myriad colors of India's musical heritage.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0e0.jpg",
+        "playListName": "Hip-Hop Forever",
+        "release": "2019-12-06T00:00:00.000Z"
+    },
+    {
+        "title": "Rustom",
+        "artists": ["Aakanksha Sharma","Jubin Nautiyal","Atif Aslam","Sukriti Kakar"],
+        "description":
+            "An innovative fusion of classical and modern elements, pushing the boundaries of Indian music.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0e1.jpg",
+        "playListName": "Hip-Hop Forever",
+        "release": "2016-08-23T00:00:00.000Z"
+    },
+    {
+        "title": "Speed Drive (From Barbie The Album)",
+        "artists": ["Charli XCX"],
+        "description":
+            "An innovative fusion of classical and modern elements, pushing the boundaries of Indian music.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0e2.jpg",
+        "playListName": "Hip-Hop Forever",
+        "release": "2023-06-29T00:00:00.000Z"
+    },
+    {
+        "title": "Yaarana",
+        "artists": ["Kishore Kumar","Mohammed Rafi"],
+        "description":
+            "A symphony of emotions, weaving tales of joy, sorrow, and triumph. A masterpiece of storytelling.",
+        "image":
+            "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cee72fe41f6d0a8b0cd0e3.jpg",
+        "playListName": "Hip-Hop Forever",
+        "release": "1981-01-01T00:00:00.000Z"
+    }
+
+]
