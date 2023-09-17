@@ -14,8 +14,10 @@ app.use(express.json());
 songs.makeSongs(songs.songExample);
 //all routes
 app.use("/api/v1/users", userRoutes);
-app.use("/api/v1/albums", authMiddleWare, albumRoutes);
-app.use("/api/v1/songs", authMiddleWare, songRoutes);
+// app.use("/api/v1/albums", authMiddleWare, albumRoutes);
+app.use("/api/v1/albums", albumRoutes);
+// app.use("/api/v1/songs", authMiddleWare, songRoutes);
+app.use("/api/v1/songs", songRoutes);
 
 const connectDB = async () => {
   await mongoose.connect(process.env.MONGO_URI);

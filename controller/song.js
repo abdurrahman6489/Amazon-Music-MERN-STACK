@@ -25,6 +25,10 @@ const createSong = async (req, res) => {
     data: song,
   });
 };
+
+const getAllSongs = async (req, res) => {
+  const { filter } = req.query || {};
+};
 module.exports = {
   createSong,
 };
