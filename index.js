@@ -5,19 +5,21 @@ const cors = require("cors");
 const userRoutes = require("./routes/user.js");
 const albumRoutes = require("./routes/album.js");
 const songRoutes = require("./routes/song.js");
+const savedAlbumRoutes = require("./routes/savedAlbum.js");
+const savedSongRoutes = require("./routes/savedSong.js");
 const authMiddleWare = require("./middleware/auth.js");
-const songs = require("./songsExample.js");
 
 require("dotenv").config();
 app.use(cors());
 app.use(express.json());
-songs.makeSongs(songs.songExample);
 //all routes
 app.use("/api/v1/users", userRoutes);
 // app.use("/api/v1/albums", authMiddleWare, albumRoutes);
 app.use("/api/v1/albums", albumRoutes);
 // app.use("/api/v1/songs", authMiddleWare, songRoutes);
 app.use("/api/v1/songs", songRoutes);
+app.use("/api/v1/savedAlbums", authMiddleWare, savedAlbumRoutes);
+app.use("/api/v1/savedSongs", authMiddleWare, savedSongRoutes);
 
 const connectDB = async () => {
   await mongoose.connect(process.env.MONGO_URI);

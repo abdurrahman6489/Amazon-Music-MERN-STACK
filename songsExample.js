@@ -10,21 +10,21 @@ const makeSongs = (songArray) => {
 const songExample = [
   {
     featured: null,
-    _id: "64cf910847ae38c3e33a23bf",
-    title: "Car Keys (Ayla)",
-    artist: ["64ce7c0bbbbada037c35ee7d", "64ce7c0bbbbada037c35ee7e"],
-    album: "64cee72fe41f6d0a8b0cd0d9",
+    _id: "64cf911947ae38c3e33a2523",
+    title: "Chaand Baaliyan",
+    artist: ["64ce7c0bbbbada037c35ee95"],
+    album: "64cee72fe41f6d0a8b0cd0e4",
     likedBy: [],
-    dateOfRelease: "2023-06-30T00:00:00.000Z",
+    dateOfRelease: "2020-03-28T00:00:00.000Z",
     type: "song",
-    mood: "excited",
+    mood: "romantic",
     thumbnail:
-      "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cf910847ae38c3e33a23bf.jpg",
+      "https://newton-project-resume-backend.s3.amazonaws.com/thumbnail/64cf911947ae38c3e33a2523.jpg",
     appType: "music",
-    createdAt: "2023-08-06T12:24:40.947Z",
+    createdAt: "2023-08-06T12:24:57.914Z",
     __v: 0,
     audio_url:
-      "https://newton-project-resume-backend.s3.amazonaws.com/audio/64cf910847ae38c3e33a23bf.mp3",
+      "https://newton-project-resume-backend.s3.amazonaws.com/audio/64cf911947ae38c3e33a2523.mp3",
   },
 ];
 
