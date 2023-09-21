@@ -3,13 +3,14 @@ const Album = require("../model/album.js");
 
 const getSavedAlbums = async (req, res) => {
   const userId = req.user._id;
-  const status = "active";
   let allSavedAlbums;
   try {
-    allSavedAlbums = (await SavedAlbum.find({ userId, status })).populate(
-      "albumId"
-    );
+    allSavedAlbums = await SavedAlbum.find({
+      userId,
+      status: "active",
+    }).populate("albumId");
   } catch (error) {
+    console.log(error);
     return res
       .status(404)
       .json({ status: "failure", message: "Something went wrong" });

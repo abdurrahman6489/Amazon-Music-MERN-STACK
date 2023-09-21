@@ -17,5 +17,5 @@ const savedAlbumSchema = {
     default: "active",
   },
 };
-const SavedAlbum = mongoose.model("savedAlbums", savedAlbumSchema);
+const SavedAlbum = mongoose.model("savedalbums", savedAlbumSchema);
 module.exports = SavedAlbum;

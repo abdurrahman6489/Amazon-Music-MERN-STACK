@@ -16,7 +16,7 @@ const registerUser = async (req, res) => {
   }
   const salt = await bcrypt.genSalt(10);
   const password = await bcrypt.hash(plainTextPassword, salt);
-  const newUser = new User({ name, email, password: password });
+  const newUser = new User({ name, email, password: password, role: "admin" });
   await newUser.save();
   return res.json({
     status: "success",
@@ -48,6 +48,7 @@ const loginUser = async (req, res) => {
     name,
     email,
     _id: user._id,
+    role: "admin",
   };
   const token = jwt.sign(tokenPayload, process.env.JWT_SECRET);
   await User.findOneAndUpdate(user._id, { token });
