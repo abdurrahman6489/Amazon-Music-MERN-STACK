@@ -48,7 +48,6 @@ const loginUser = async (req, res) => {
     name,
     email,
     _id: user._id,
-    role: "admin",
   };
   const token = jwt.sign(tokenPayload, process.env.JWT_SECRET);
   await User.findOneAndUpdate(user._id, { token });
