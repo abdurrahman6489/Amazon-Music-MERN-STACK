@@ -16,7 +16,7 @@ const registerUser = async (req, res) => {
   }
   const salt = await bcrypt.genSalt(10);
   const password = await bcrypt.hash(plainTextPassword, salt);
-  const newUser = new User({ name, email, password: password, role: "admin" });
+  const newUser = new User({ name, email, password: password, role: "user" });
   await newUser.save();
   return res.json({
     status: "success",
