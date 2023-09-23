@@ -43,11 +43,12 @@ const loginUser = async (req, res) => {
       .status(404)
       .json({ status: "failure", message: "invalid email or password" });
   }
-  const name = user.name;
+  const { name, role, _id } = user;
   const tokenPayload = {
     name,
     email,
-    _id: user._id,
+    role,
+    _id,
   };
   const token = jwt.sign(tokenPayload, process.env.JWT_SECRET);
   await User.findOneAndUpdate(user._id, { token });

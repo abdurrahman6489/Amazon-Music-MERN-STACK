@@ -34,4 +34,6 @@ connectDB()
   });
 
 const port = 5010;
-app.listen(port, () => console.log("server up and running at ", port));
+app.listen(process.env.PORT || port, () =>
+  console.log("server up and running at ", process.env.PORT || port)
+);
