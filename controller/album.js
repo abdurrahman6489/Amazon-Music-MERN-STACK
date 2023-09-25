@@ -23,7 +23,6 @@ const getAllAlbums = async (req, res) => {
   const query = utilFunctions.getAlbumQuerySearch(req.query);
   try {
     const allAlbums = await Album.find(query);
-    console.log(allAlbums);
     if (!allAlbums || allAlbums?.length == 0) {
       return res
         .status(404)
