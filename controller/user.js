@@ -64,8 +64,66 @@ const logoutUser = async (req, res) => {
   return res.json({ status: "success", message: "logged out successfully" });
 };
 
+const updatePassword = async (req, res) => {
+  const user = req.user;
+  const headerEmail = user.email;
+  const bodyEmail = req.body.email;
+  if (headerEmail !== bodyEmail) {
+    return res.status(403).json({
+      status: "failure",
+      message: "invalid login or password",
+    });
+  }
+  const toUpdateUser = await User.findOne({ email: bodyEmail });
+  if (!toUpdateUser)
+    return res
+      .status(403)
+      .json({ status: "failure", message: "user details incorrect" });
+  const password = toUpdateUser.password;
+  const plainTextPassword = req.body.password;
+  const isValidPassword = await bcrypt.compare(plainTextPassword, password);
+  if (!isValidPassword) {
+    return res
+      .status(404)
+      .json({ status: "failure", message: "incorrect email or password" });
+  }
+  const newPassword = req.body.newPassword;
+  if (!newPassword)
+    return res.status(404).json({
+      status: "failure",
+      message: "enter valid password for the new password",
+    });
+  const salt = await bcrypt.genSalt(10);
+  const hashPassword = await bcrypt.hash(newPassword, salt);
+  const { name, email, role, _id } = toUpdateUser;
+  const tokenPayload = {
+    name,
+    email,
+    role,
+    _id,
+  };
+  const token = jwt.sign(tokenPayload, process.env.JWT_SECRET);
+  try {
+    await User.findByIdAndUpdate(_id, { token, password: hashPassword });
+  } catch (error) {
+    console.log("error is ", error);
+    return res
+      .status(403)
+      .json({
+        status: "failure",
+        message: "something went wrong, try again after some time",
+      });
+  }
+  return res.json({
+    status: "success",
+    message: "password updated successfully",
+    token: token,
+  });
+};
+
 module.exports = {
   registerUser,
   loginUser,
   logoutUser,
+  updatePassword,
 };
