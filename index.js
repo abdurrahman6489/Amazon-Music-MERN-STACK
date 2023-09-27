@@ -7,6 +7,7 @@ const albumRoutes = require("./routes/album.js");
 const songRoutes = require("./routes/song.js");
 const savedAlbumRoutes = require("./routes/savedAlbum.js");
 const savedSongRoutes = require("./routes/savedSong.js");
+const albumSongRoutes = require("./routes/albumSong.js");
 const authMiddleWare = require("./middleware/auth.js");
 
 require("dotenv").config();
@@ -14,10 +15,13 @@ app.use(cors());
 app.use(express.json());
 //all routes
 app.use("/api/v1/users", userRoutes);
-// app.use("/api/v1/albums", authMiddleWare, albumRoutes);
+
 app.use("/api/v1/albums", albumRoutes);
-// app.use("/api/v1/songs", authMiddleWare, songRoutes);
+
 app.use("/api/v1/songs", songRoutes);
+
+app.use("/api/v1/albumSong", albumSongRoutes);
+
 app.use("/api/v1/savedAlbums", authMiddleWare, savedAlbumRoutes);
 app.use("/api/v1/savedSongs", authMiddleWare, savedSongRoutes);
 
